@@ -79,3 +79,18 @@ Certifique-se de ter o **Node.js** instalado em sua máquina.
 1.  Abra o `index.html` em **múltiplas abas ou navegadores** para simular diferentes usuários.
 2.  Digite um nome em cada aba e clique em **"Entrar"**.
 3.  As mensagens enviadas em uma aba serão imediatamente exibidas em todas as outras.
+
+---
+
+### 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+### 👨‍💻 Autor
+
+Feito com 🧠 e muito ❤️ por **Maria Lamoglia**.
+
+[![linkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maria-lamoglia/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MariaLamoglia/)
