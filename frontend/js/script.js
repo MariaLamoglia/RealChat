@@ -83,7 +83,7 @@ const handleLogin = (event) => {
     login.style.display = "none";
     chat.style.display = "flex";
 
-    websocket = new WebSocket("ws://localhost:8080"); // instancia uma nova conexão WebSocket com o servidor
+    websocket = new WebSocket("wss://realchat-backend-q7ee.onrender.com"); // instancia uma nova conexão WebSocket com o servidor
     websocket.onmessage = processMessage; // define a função 'processMessage' para ser chamada sempre que uma mensagem for recebida
 }
 
