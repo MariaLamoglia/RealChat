@@ -4,6 +4,18 @@
 
 ---
 
+## 🔗 Live Demo (Em Produção) 🌟
+
+Seu projeto está ativo e funcionando na nuvem!
+
+| Serviço | Link de Acesso |
+| :--- | :--- |
+| **RealChat** (Deploy no Render) | **[https://realchat-frontend-x6f5.onrender.com]** |
+
+> **Nota:** Para testar a funcionalidade em tempo real, abra o link em **duas ou mais abas** no seu navegador.
+
+---
+
 ## 💻 Funcionalidades Principais
 
 * **Conexão em Tempo Real:** Utiliza **WebSockets** (`ws`) para garantir a troca instantânea de mensagens entre múltiplos clientes.
@@ -36,9 +48,9 @@ O projeto está dividido em duas partes essenciais: **Frontend** (o cliente web)
 
 ---
 
-## ⚙️ Como Executar o Projeto
+## ⚙️ Como Executar o Projeto Localmente
 
-Siga os passos abaixo para configurar e rodar o chat localmente.
+Embora o chat esteja online, você ainda pode executá-lo em sua máquina.
 
 ### 1. Pré-requisitos
 
@@ -63,22 +75,16 @@ Certifique-se de ter o **Node.js** instalado em sua máquina.
     ```bash
     node src/server.js
     ```
-    O console deve exibir: `client connected! (A primeira conexão será feita pelo frontend)`
+    O console deve exibir: `client connected!`
 
-### 3. Configuração do Frontend
+### 3. Configuração do Frontend (Local)
 
 1.  Mantenha o servidor Node.js rodando.
 2.  Navegue até o diretório `frontend`:
     ```bash
     cd ../frontend
     ```
-3.  Abra o arquivo **`index.html`** em seu navegador de preferência (pode ser feito com o atalho `Ctrl+O` ou `Cmd+O`).
-
-### 4. Uso
-
-1.  Abra o `index.html` em **múltiplas abas ou navegadores** para simular diferentes usuários.
-2.  Digite um nome em cada aba e clique em **"Entrar"**.
-3.  As mensagens enviadas em uma aba serão imediatamente exibidas em todas as outras.
+3.  Abra o arquivo **`index.html`** em seu navegador.
 
 ---
 
